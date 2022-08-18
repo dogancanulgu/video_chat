@@ -1,0 +1,25 @@
+{
+  "name": "video_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogancanulgu/video_chat.git"
+  },
+  "author": "Doğancan Ülgü",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dogancanulgu/video_chat/issues"
+  },
+  "homepage": "https://github.com/dogancanulgu/video_chat#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
+}
